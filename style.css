@@ -20,6 +20,9 @@ main{
     display: flex;
     position: fixed;
 }
+html {
+  scroll-behavior: smooth;
+}
 .navbar img{
     height: 60px;
     width: 200px;
