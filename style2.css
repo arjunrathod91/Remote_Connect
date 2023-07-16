@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+li{
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+.all_links{
+    margin: 40px;
+
+}
+.navbar3{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.footer3{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+.newcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background: url(pexels-alexander-suhorucov-6457563.jpg)no-repeat;
+    background-size: cover;
+}
+.loginbox{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h3{
+    margin-bottom: 30px;
+}
+.loginbox input{
+    text-align: center;
+    margin: 10px;
+    height: 30px;
+    width: 80%;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0.5px solid black;
+    padding: 20px;
+}
+.loginbox button{
+    height: 40px;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(212, 210, 210);
+    border: 1px solid white;
+}
+.loginbox button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.loginbox h3{
+    margin-bottom: 15px;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+
+.signcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(29, 29, 39);
+    background: url(pexels-alexander-suhorucov-6457563.jpg)no-repeat;
+    background-size: cover;
+}
+.stylebox{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.signcontainer input{
+    padding: 20px;
+    margin: 10px;
+    height: 30px;
+    width: 80%;
+    border-radius: 3px;
+    border: none;
+    border: 0.5px solid black;
+}
+.signcontainer button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: rgb(212, 210, 210);;
+    color: rgb(0, 0, 0);
+}
+.signcontainer button:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+.tutorials{
+    width: 100%;
+    background-color: rgb(238, 243, 255);
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.u1{
+    margin: 10px;
+
+}
+.u2{
+    margin: 20px;
+
+    
+}
+.hackathons{
+    width: 100%;
+    background-color: rgb(242, 211, 211);
+    padding: 20px;
+}
+.hackathons ul{
+    padding: 0 20px;
+}
+.hackathons li{ 
+    font-size: 1.5rem;
+    
+}
+.projects{
+    width: 100%;
+    background-color: rgb(253, 252, 202);
+    padding: 20px;
+}
+.projects ul{
+    padding: 20px;
+}
+.projects li{ 
+    font-size: 1.5rem;
+    
+}
+.mentors{
+    width: 100%;
+    background-color: rgb(234, 255, 230);
+    padding: 20px;
+}
+.mentors p{
+}
+.workshops{
+    width: 100%;
+    background-color: rgb(210, 240, 235);
+    padding: 20px;
+}
+.workshops p{
+    font-size: 1.5rem;
+}
+.jobs{
+    width: 100%;
+    background-color: rgb(194, 244, 217);
+    padding: 20px;
+
+}
+.jobs ul{ 
+    padding: 20px;
+    
+}
+.jobs li{ 
+    font-size: 1.5rem;
+    
+}
+.about1{
+    height: 900px;
+    width: 100%;
+    padding-top: 120px;
+    background-color: black;
+}
+.about1 h2{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about1 p{
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
