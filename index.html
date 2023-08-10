@@ -8,42 +8,68 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c1f172a003.js" crossorigin="anonymous"></script>
     <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
-    
+
 </head>
+
 <body>
     <main>
         <div class="navbar">
-            <a href="index.html"><img src="Final FInal logo.png" alt="remotelogo"></a>
-            <ul>
-                <a href="#about">
-                    <li>About</li>
-                </a>
-
-                <a href="#features">
-                    <li>Features</li>
-                </a>
-                <a href="#community">
-                    <li>Community</li>
-                </a>
-            </ul>
-            <div class="btn">
-                    <a href="login.html"><button id="logindiv">Log In</button></a>
-                    <a href="signup.html"><button id="signdiv">Sign Up</button></a>
+            <div class="logos">
+                <a href="index.html"><img src="Final FInal logo.png" alt="remotelogo"></a>
             </div>
+            
+                <ul class="nav-links" id="nav-links">
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+
+                    <a href="#features">
+                        <li>Features</li>
+                    </a>
+                    <a href="#community">
+                        <li>Community</li>
+                    </a>
+                </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <!-- <div class="btn">
+                        <a href="login.html"><button id="logindiv">Log In</button></a>
+                        <a href="signup.html"><button id="signdiv">Sign Up</button></a>
+                </div> -->
+            <!-- <a href="profile.html"><div class="profileicon">
+                    <img src="Arjun Rathod.png" alt="">
+                </div></a> -->
         </div>
+
         <div class="container1">
-            <img src="remote 4.jpg" alt="">
+            <div class="conimg">
+                <img src="remote 4.jpg" alt="">
+            </div>
             <h1>"Remote Connect: Empowering Rural Communities Globally through Remote Work"</h1>
             <a href="#about"><button>Get Started</button></a>
-        </div>    
+        </div>
         <div class="about" id="about">
-            <h3>About Us</h3>
-                <p style="margin-bottom: 0px;">At Remote Connect, we are driven by a powerful vision - one that embraces the limitless potential of remote work to transform rural communities across the globe.
+            <div class="heading">
+                <h3>About Us</h3>
+            </div>
+            <div class="para">
+                <p style="margin-bottom: 0px;">At Remote Connect, we are driven by a powerful vision - one that embraces
+                    the limitless potential of remote work to transform rural communities across the globe.
                 </p>
-                <p style="margin-bottom: 0px;">Economic Empowerment:We are empowering economies by providing remote work opportunities that unlock the untapped potential of rural talents and stimulate economic growth.</p>
-                <p>Skill Development: Remote Connect offers Programming tutorials Workshops, Hackathons equipping rural talents with valuable technical skills.</p>
-                <p>Sustainability: Reducing carbon footprint by minimizing daily commutes through remote work practices.</p>
+                <p style="margin-bottom: 0px;">Economic Empowerment:We are empowering economies by providing remote work
+                    opportunities that unlock the untapped potential of rural talents and stimulate economic growth.</p>
+                <p>Skill Development: Remote Connect offers Programming tutorials Workshops, Hackathons equipping rural
+                    talents with valuable technical skills.</p>
+                <p>Sustainability: Reducing carbon footprint by minimizing daily commutes through remote work practices.
+                </p>
+            </div>
+            <div class="btn-link">
                 <a href="moreabout.html"><button>More About Us</button></a>
+            </div>
         </div>
         <div class="features" id="features">
             <h1>Features that you ♥️ in one place</h1>
@@ -119,15 +145,20 @@
         </div>
         <div class="community" id="community">
             <h3 style="color: aqua;">Community Forum</h3>
-            <p>Join our thriving community forum, where remote workers and rural communities converge to connect, share experiences, and collaborate. Engage in meaningful discussions, gain valuable insights, and be part of a supportive network that empowers remote work and rural economies worldwide. Together, let's shape the future of work and create opportunities for economic growth in rural areas.</p>
+            <p>Join our thriving community forum, where remote workers and rural communities converge to connect, share
+                experiences, and collaborate. Engage in meaningful discussions, gain valuable insights, and be part of a
+                supportive network that empowers remote work and rural economies worldwide. Together, let's shape the
+                future of work and create opportunities for economic growth in rural areas.</p>
         </div>
         <div class="footer">
-            <h3 style="text-align: center;margin: 20px;font-size: 2rem;">Meet The Devlopers</h3>
+            <div class="head">
+                <h3>Meet The Devlopers</h3>
+                <!-- style="text-align: center;margin: 20px;font-size: 2rem;" -->
+            </div>
             <div class="devimg">
                 <img id="arjun" src="Arjun Rathod.png" alt="">
                 <img id="ranjeet" src="ranjeet img final.png" alt="">
             </div>
-            <p id="myfooter">© 2023 Remote Connect | All Right Reserved by Remote Connect</p>
             <div class="social">
                 <ul>
                     <li><img src="facebook.png" alt=""></li>
@@ -136,22 +167,16 @@
                     <li><img src="github.png" alt=""></li>
                 </ul>
             </div>
-        </div>   
+            <div class="footpara">
+                <p id="myfooter">© 2023 Remote Connect | All Right Reserved by Remote Connect</p>
+            </div>
+        </div>
         <!--Start of Tawk.to Script-->
         <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/64b378e094cf5d49dc63d895/1h5eh0bn4';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+        <script src="app.js"></script>
     </main>
+
+
 
 </body>
 
