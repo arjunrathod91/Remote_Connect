@@ -8,6 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 main{
     background-color: rgb(255, 255, 255);
+    height:100vh;
+    width:100%;
     
 }
 .navbar{
@@ -198,6 +200,7 @@ h1{
 }
 .footer h3{
     font-size: 2rem;
+    text-align:center;
 }
 .footer .devimg img{
     margin: 40px;
