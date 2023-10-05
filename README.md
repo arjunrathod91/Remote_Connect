@@ -20,6 +20,8 @@ This was our first project in any hackathon we learned that we should not code j
 # 🚀Future Plans
 User will keep getting latest updates of Remote Job offers and new courses and lots of exciting opportunities and we will starting the Workshop and Mentorship programs very very soon for the students.
 # Demo
+https://arjunrathod91.github.io/Remote_Connect/
+
 1.Home-page
 ![Screenshot (1)](https://github.com/arjunrathod91/Remote_Connect/assets/138087179/b2647df5-4c4e-4ab6-bdef-bad0bff046c2)
 
@@ -43,9 +45,6 @@ User will keep getting latest updates of Remote Job offers and new courses and l
 
 8.Sign-up Page
 ![Screenshot (11)](https://github.com/arjunrathod91/Remote_Connect/assets/138087179/96298986-a04f-4f1e-9bbf-6b7bdd1ed4db)
-
-# Demo
-https://arjunrathod91.github.io/Remote_Connect/
 
 
 
